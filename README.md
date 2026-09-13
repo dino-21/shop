@@ -145,7 +145,7 @@ npm run build       # 배포용 빌드 생성 (build/ 폴더)
 ---
 
 
-## 9. 배포 환경
+## 8. 배포 환경
 
 - GitHub Pages 배포 (base path: `/shop`)
 - `favicon.ico`, `manifest.json`, `robots.txt` 등 CRA 기본 PWA 관련 파일 포함
