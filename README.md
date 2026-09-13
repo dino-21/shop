@@ -144,13 +144,6 @@ npm run build       # 배포용 빌드 생성 (build/ 폴더)
 
 ---
 
-## 8. 알아두면 좋은 코드 상의 이슈 (수업용 참고)
-
-- `Loacation.js` 파일명에 오타가 있습니다 (정상 표기는 `Location`).
-- `Cart.js`에서 `decreaseCount`를 import 하지만, `store.js`의 export 구문(`addCount, decreaseCount, addItem, deleteItem, sortName`)에는 있지만 실제 `reducers` 객체 정의에서는 주석 안에 문자열로 포함되어 있어 정상 동작 여부를 확인해볼 필요가 있습니다 (학생들이 직접 디버깅해보기 좋은 포인트).
-- 이미지 경로 참조 시 `process.env.PUBLIC_URL`을 사용하는 곳과 `"/shop/" + imgUrl`처럼 하드코딩한 곳이 혼재되어 있어, 배포 경로 변경 시 일관성 있게 리팩터링해보는 실습이 가능합니다.
-
----
 
 ## 9. 배포 환경
 
